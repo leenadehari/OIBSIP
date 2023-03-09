@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Temperature converter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+        <div class="container" >
+            <form class="form"  id="calctemp" onsubmit="calculatetemp();">
+                <label for="temp">temperature converter</label><br>
+                <input type="number" value="0" name="temp" id="temp" >
+                <select name="type" id="type">
+                <option value="feh">&#176;Fahrenheit</option>
+                <option value="cel">&#176;Celsius</option>
+                </select></br>
+                <input type="submit" name="temp " id="submit"></br>
+                <span id="result"></span>
+            </form>   
+        </div>
+    <script type="text/javascript" src="indext.js"></script>
+</body>
+</html>
